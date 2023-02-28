@@ -1,7 +1,7 @@
 import {useState,useEffect} from 'react'
 import { useParams } from 'react-router-dom'
-
 import { ItemList } from '../ItemList/ItemList'
+import "../Style.css"
 
 export const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
@@ -13,7 +13,7 @@ export const ItemListContainer = () => {
             .then(response => response.json())
             .then(items => {
                 const products = items.filter(prod => prod.idCategoria === parseInt(idCategoria))
-                const productsList = ItemList({products}) //Array de productos en JSX
+                const productsList = ItemList({products}) 
                 console.log(productsList)
                 setProductos(productsList)
             })
@@ -22,17 +22,16 @@ export const ItemListContainer = () => {
             .then(response => response.json())
             .then(products => {
                 console.log(products)
-                const productsList = ItemList({products}) //Array de productos en JSX
+                const productsList = ItemList({products}) 
                 console.log(productsList)
                 setProductos(productsList)
             })
         }
         
     }, [idCategoria])
-    //[] cuando se renderiza
-    //[prop] cuando se renderiza y cuando se actualiza
+
     return (
-        <div className='row cardProductos'>
+        <div className='container__flex'>
             {productos}
         </div>
     )

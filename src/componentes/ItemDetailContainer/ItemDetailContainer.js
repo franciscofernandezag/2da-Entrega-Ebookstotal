@@ -15,7 +15,7 @@ export const ItemDetailContainer = () => {
         })
     }, [])
     return (
-        <div className=' card mb-3 container itemDetail  border-warning'>
+        <div >
             <ItemDetail item= {producto}/>
         </div>
     )

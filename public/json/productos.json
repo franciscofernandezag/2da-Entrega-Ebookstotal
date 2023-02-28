@@ -1,9 +1,9 @@
 [
-    {
+  {
     "id": 1,
     "idCategoria": 1,
     "titulo": "13 Euros",
-    "autor": "Luisa Martinez",
+    "autor": "Federic Beigberder",
     "precio": 9.99,
     "genero": "Novela",
     "resumen": "En este thriller emocionante, seguimos a un grupo de amigos que deciden cometer un robo en un casino para resolver sus problemas financieros. Pero cuando las cosas se complican, se ven envueltos en una espiral de peligro y violencia.",
@@ -55,8 +55,6 @@
     "img": "cover 7.png"
   },
 
-
-
   {
     "id": 6,
     "idCategoria": 2,
@@ -91,7 +89,6 @@
     "etiqueta": "",
     "img": "cover 2.png"
   },
-
 
   {
     "id": 9,
@@ -193,7 +190,7 @@
     "genero": "Filosofia",
     "resumen": "En este libro, Bauman examina el consumismo moderno y cómo afecta nuestras vidas y relaciones sociales.",
     "etiqueta": "masvendidos",
-    "img": "cover 4.png"
+    "img": "cover 10.png"
   },
 
   {
@@ -232,9 +229,6 @@
     "img": "cover 9.png"
   },
 
-  
-
-
   {
     "id": 21,
     "idCategoria": 5,
@@ -246,8 +240,6 @@
     "etiqueta": "",
     "img": "cover 23.png"
   },
-
-
 
   {
     "id": 22,
